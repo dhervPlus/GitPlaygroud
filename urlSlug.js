@@ -1,6 +1,6 @@
 function getUrlSlug(words) {
  return words
-.replace(/\s+/g, '--')
+.replace(/\s+/g, '-')
 .toLowerCase();
 }
 
